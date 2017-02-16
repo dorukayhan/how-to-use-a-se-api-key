@@ -9,7 +9,7 @@ The .java file in this repository demonstrates just that by fetching general inf
 
 Here's an overview of the workflow in that .java file (with "you" being "the program"):
 
-- **Step 1)** You open a connection to `https://api.stackexchange.com/2.2/info?site=stackoverflow&api=YOUR_API_KEY_HERE`.
+- **Step 1)** You open a connection to `https://api.stackexchange.com/2.2/info?site=stackoverflow&key=YOUR_API_KEY_HERE`.
 - **Step 2)** The API packs miscellaneous facts about Stack Overflow into a JSON object, GZIPs it, and sends it to you.
 - **Step 3)** You unGZIP the JSON you just got and use it (in this case, by printing it to `System.out`).
 
